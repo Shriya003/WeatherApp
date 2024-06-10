@@ -17,8 +17,8 @@ A responsive weather application built using React, which fetches weather data f
 
 1. **Clone the repository**
    
-   git clone https://github.com/yourusername/react-weather-app.git
-   cd react-weather-app
+   git clone https://github.com/Shriya003/WeatherApp.git
+   cd Weather
 
  2.  **Install dependencies**
 
