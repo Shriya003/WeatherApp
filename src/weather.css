@@ -1,0 +1,208 @@
+/* General Styles */
+.dark-theme{
+    --main-theme: rgba(57, 53, 53, 0.2);
+    --text-color:white;
+    --background-color:black;
+    --button-color:#4a4a4a
+}
+
+.light-theme{
+
+    --main-theme: rgba(255, 255, 255, 0.2);
+    --text-color:black;
+    --background-color:white;
+    --button-color:#c6c6c6
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    /* background-color: rgb(43, 41, 41); */
+    color: white;
+   
+}
+
+/* Main Container */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    /* background-image: url('./images/img1.jpg'); */
+}
+.main2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./images/img1.jpg');
+}
+button{
+    width: 10vw;
+    height: 5vh;
+    margin-bottom: 2%;
+    background-color: var(--button-color);
+    color: var(--text-color);
+}
+
+/* Content Box */
+.content {
+    /* background: rgba(255, 255, 255, 0.2); */
+    background-color: var(--main-theme);
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+    width: 30vw;
+    justify-content: center;
+    padding: 20px;
+}
+.content2 {
+    background: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    width: 30vw;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+/* Search Form */
+.search_form input {
+    padding: 10px;
+    border:black ;
+    background-color:transparent;
+    margin-bottom: 20%;
+    border-bottom: 2px solid rgb(12, 12, 12);
+    outline: none;
+    width: 80%;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+.search_form2 input {
+    padding: 10px;
+    border:black ;
+    background-color:white;
+    margin-bottom: 20%;
+    border-bottom:2px solid rgb(12, 12, 12);
+    outline: none;
+    width: 80%;
+    height: 2vh;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+/* Heading */
+ h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+   
+    color: #9cf97c;
+}
+
+/* Weather Description */
+p {
+    font-size: 1.3rem;
+    margin: 5px 0;
+    /* color: #4a4a4a; */
+    color: var(--text-color);
+    
+}
+.content2 p {
+    font-size: 1.3rem;
+    margin: 5px 0;
+    /* color: #4a4a4a; */
+    color: var(--text-color);
+    background-color: var(--background-color);
+    font-weight: bolder;
+    
+}
+/* Date and Time */
+.date_time {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    /* color: #3f2d0e; */
+    color: var(--text-color);
+}
+ .date_time2{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    background-color: var(--background-color);
+    /* color: #3f2d0e; */
+    color: var(--text-color);
+}
+.weather-icon {
+    /* font-size: 10rem; */
+    width: 8vw;
+    /* border: 2px solid red; */
+    margin: 10px 0;
+    color: #694c1e; /* You can adjust this color as needed */
+}
+
+.thunderstorm-bg {
+    background-color: #4a4a4a;
+    background-image: url('./images/thunderstorm.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.drizzle-bg {
+    background-color: #a4b0be;
+    background-image: url('./images/drizzle.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.rain-bg {
+    background-color: #3498db;
+    background-image: url('./images/rain.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.snow-bg {
+    background-color: #ecf0f1;
+    background-image: url('./images/snow.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.atmosphere-bg {
+    background-color: #95a5a6;
+    background-image: url('./images/atmosphere.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.clear-bg {
+    background-color: #f1c40f;
+    background-image: url('./images/img1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.clouds-bg {
+    background-color: #bdc3c7;
+    background-image: url('./images/cloudy.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.default-bg {
+    background-color: #1970c8;
+}
